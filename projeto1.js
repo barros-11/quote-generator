@@ -12,15 +12,12 @@ let quotes = [
 ["You miss 100% of the shots you don't take." ,"Wayne Gretzky"]]
 
 
-let numQuote= 0; 
 
 let text= document.querySelector(".quote__text"); 
 let author= document.querySelector(".quote__author"); 
 
 function changeQuote () { 
-    if (numQuote=== quotes.length -1) { 
-        numQuote=0; 
-    } else {numQuote++;}
+    let numQuote = Math.floor(Math.random()*quotes.length);
     text.textContent= quotes[numQuote][0];
     author.textContent=quotes[numQuote][1];
 }

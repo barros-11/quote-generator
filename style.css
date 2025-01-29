@@ -19,9 +19,18 @@ body {
   background-size: cover;
 }
 
+header {
+  margin: 0.5rem;
+}
+
+main {
+  margin: 0.1rem;
+}
+
 h1 {
   font-size: 2rem;
   color: white;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.772);
   border: 5px solid white;
   border-radius: 15px;
@@ -29,10 +38,10 @@ h1 {
 }
 
 .quote {
-  margin: 0 auto;
+  margin: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   text-align: center;
   padding: 2rem;
   background-color: white;
